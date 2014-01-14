@@ -269,14 +269,17 @@ h4{
 
 
 .text{
-  font-size: 50px;
-  height: 100%;
+  font-size: 35px;
+  height: 80%;
   width: 100%;
-  vertical-align: center;
+  margin-top: 30px;
+  /*vertical-align: center;  */
   text-decoration: none;
+  text-align: center;
   color: white;
   font-family: 'Alegreya Sans', sans-serif;
   background: rgba(0, 0, 0, 0.8);
+
 }
 
 .logo-dude{
@@ -298,17 +301,22 @@ h4{
 
 
 .text{
-  font-size: 35px;
-  height: 100%;
+  font-size: 25px;
+  height: 75%;
   width: 100%;
-  margin-bottom: 150px;
-  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  text-align: center;
   vertical-align: center;
   text-decoration: none;
   color: white;
   font-family: 'Alegreya Sans', sans-serif;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: rgba(0, 0, 0, 0.8);
+
+
 
 }
 
@@ -328,5 +336,57 @@ h4{
 }
 
 
+}
 
+
+
+
+/* ------------------------  RESPONSIVE DESIGN -----------------------------------*/
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }

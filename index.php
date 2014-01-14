@@ -47,8 +47,9 @@
             <div class="fill slider-image" style="background-image:url('img/house1.jpg');"></div>
             <div class="carousel-caption">
               <h1 class="text pull-right">
+              The Front door is as far as you have to go.
               <br>
-              <a href="#services">The Front door is as far as you have to go.<button class="btn btn-lg btn-info button">Our Services</button></a>
+              <a href="#services"><button class="btn btn-lg btn-info button">Our Services</button></a>
               </h1>
             </div>
           </div>
@@ -56,7 +57,9 @@
             <div class="fill" style="background-image:url('img/vegas1.jpg');"></div>
             <div class="carousel-caption ">
                 <h1 class="text pull-right">
-                <a href="#contact">You pick the location, we'll take care of the rest.<button class="btn btn-lg btn-info button">Contact us today!</button></a></a>  
+                You pick the location, we'll take care of the rest.
+                <br>
+                <a href="#contact"><button class="btn btn-lg btn-info button">Contact us today!</button></a></a>  
                 </h1>
             </div>
           </div>
