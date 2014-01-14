@@ -111,10 +111,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20000', end
 
 
 .text{
-  font-size: 45px;
+  font-size: 50px;
   height: 100%;
-  width: 300px;
-  margin-bottom: 100px;
+  width: 400px;
+  margin-bottom: 150px;
   text-align: center;
   vertical-align: center;
   text-decoration: none;
@@ -178,13 +178,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20000', end
 }
 
 .logo-services{
-  max-width: 250px;
-  max-height: 500px;
+  max-width: 200px;
+  max-height: 400px;
+
 }
 
-.space{
-  margin-top: 20px;
-}
 
 
 /* Footer Styles */

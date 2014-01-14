@@ -37,7 +37,7 @@
             <div class="fill" style="background-image:url('img/tire2.jpg');"></div>
             <div class="carousel-caption ">
               <h1 class="text pull-right">
-               The Lowest Rates in the Las Vegas Courier Service.
+               The Lowest Rates in the Las Vegas Courier Service. 
                <br>
               <a href="#contact"><button class="btn btn-lg btn-info button"> Get a Quote</button></a>
               </h1>
@@ -48,7 +48,7 @@
             <div class="carousel-caption">
               <h1 class="text pull-right">
               <br>
-              <a href="#services"><button class="btn btn-lg btn-info button">Our Services</button></a>
+              <a href="#services">The Front door is as far as you have to go.<button class="btn btn-lg btn-info button">Our Services</button></a>
               </h1>
             </div>
           </div>
@@ -56,7 +56,7 @@
             <div class="fill" style="background-image:url('img/vegas1.jpg');"></div>
             <div class="carousel-caption ">
                 <h1 class="text pull-right">
-                <a href="#contact">Delivery Catchy phrase</a>  
+                <a href="#contact">You pick the location, we'll take care of the rest.<button class="btn btn-lg btn-info button">Contact us today!</button></a></a>  
                 </h1>
             </div>
           </div>
@@ -112,11 +112,11 @@
 
         <div class="col-md-8">
           <h1 class="page-header">Basic</h1>
-            <p class="services-text">What will we do for you? We will come to your door and pick up your packages and deliver them for you. We deliver just about anything that you can fit inside of a shipping box. We also deliver envelopes. </p>
+            <p class="services-text">What will we do for you? We will come to your house and pick up your packages and envelopes. </p>
         </div>
       
         <div class="col-lg-4">
-          <img class="logo-services" src="img/logo.png">
+          <img class="logo-services pull-right" src="img/logo.png">
         </div>
 
       </div><!-- /.row -->
@@ -126,20 +126,21 @@
       <div class="row">
 
         <div class="col-lg-12">
-          <h2 class="">Special</h2>
-          <ul id="myTab" class="nav nav-tabs">
+          <h2 class="">Special Services</h2>
+          <smaller>These special services are really cool and what sets us apart from others.</smaller>
+           <ul id="myTab" class="nav nav-tabs space">
             <li class="active"><a href="#service-one" data-toggle="tab">Service One</a></li>
             <li><a href="#service-two" data-toggle="tab">Service Two</a></li>
-            <li><a href="#service-three" data-toggle="tab"></a>
           </ul>
+
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="service-one">
               <i class="fa fa-gear pull-left fa-4x"></i>
-              <p class="services-text">What will we do for you? We will come to your door and pick up your packages and deliver them for you. We deliver just about anything that you can fit inside of a shipping box. We also deliver envelopes. </p>
+              <p class="services-text">We will come to your house and pick your items for shipping up and then take them to the post office and wait in line for you! This saves you lots of time! </p>
             </div>
             <div class="tab-pane fade" id="service-two">
               <i class="fa fa-gears pull-left fa-4x"></i>
-              <p class="services-text" >This is our really cool one. We will go to the grocery store of your choice and pick up the things there that you want to ship, saving you even more time and hassle!</p>
+              <p class="services-text" >This is our really cool one. We will go to the grocery store of your choice and pick up the things there that you want to ship. This saves you more time than special service one!</p>
             </div>
             
           </div>
@@ -171,8 +172,7 @@
         
         <div class="col-lg-12">
           <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-        </div>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Las+Vegas,+NV&amp;aq=&amp;sll=36.11569,-115.175171&amp;sspn=0.324493,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Las+Vegas,+Clark+County,+Nevada&amp;ll=36.114646,-115.172816&amp;spn=0.324404,0.676346&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Las+Vegas,+NV&amp;aq=&amp;sll=36.11569,-115.175171&amp;sspn=0.324493,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Las+Vegas,+Clark+County,+Nevada&amp;ll=36.114646,-115.172816&amp;spn=0.324404,0.676346&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small>        </div>
 
       </div><!-- /.row -->
       
@@ -207,15 +207,10 @@
         </div>
 
         <div class="col-sm-4">
-          <h3>Modern Business</h3>
-          <h4>A Start Bootstrap Template</h4>
-          <p>
-            5555 44th Street N.<br>
-            Bootstrapville, CA 32323<br>
-          </p>
-          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (555) 984-3600</p>
-          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:holm.tanner@gmail.com">holm.tanner@gmail.com</a></p>
-          <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+          <h3>Reliable Delivers</h3>
+          <h4>Las Vegas Courier Business</h4>
+          <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (702) 533-6209</p>
+          <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:reliable.delivers@outlook.com">reliable.delivers@outlook.com</a></p>
           <ul class="list-unstyled list-inline list-social-icons">
             <li class="tooltip-social facebook-link"><a href="#facebook-page" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
             <li class="tooltip-social linkedin-link"><a href="#linkedin-company-page" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
