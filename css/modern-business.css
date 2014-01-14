@@ -1,0 +1,332 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+@import url(http://fonts.googleapis.com/css?family=Varela);
+@import url(http://fonts.googleapis.com/css?family=Cantarell:700italic);
+@import url(http://fonts.googleapis.com/css?family=Sansita+One);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:700italic);
+@import url(http://fonts.googleapis.com/css?family=ABeeZee);
+html, body {
+  height:100%;
+}
+
+body {
+  /*padding-top: 50px;*/
+   /* body padding for fixed top nav */
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 0px 0;
+}
+
+.section-colored {
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(181,189,200,1) 6%, rgba(40,43,42,1) 24%, rgba(40,43,42,1) 51%, rgba(40,43,42,1) 77%, rgba(181,189,200,1) 92%, rgba(181,189,200,1) 100%, rgba(40,43,42,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(6%,rgba(181,189,200,1)), color-stop(24%,rgba(40,43,42,1)), color-stop(51%,rgba(40,43,42,1)), color-stop(77%,rgba(40,43,42,1)), color-stop(92%,rgba(181,189,200,1)), color-stop(100%,rgba(181,189,200,1)), color-stop(100%,rgba(40,43,42,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(181,189,200,1) 6%,rgba(40,43,42,1) 24%,rgba(40,43,42,1) 51%,rgba(40,43,42,1) 77%,rgba(181,189,200,1) 92%,rgba(181,189,200,1) 100%,rgba(40,43,42,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(181,189,200,1) 6%,rgba(40,43,42,1) 24%,rgba(40,43,42,1) 51%,rgba(40,43,42,1) 77%,rgba(181,189,200,1) 92%,rgba(181,189,200,1) 100%,rgba(40,43,42,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(181,189,200,1) 6%,rgba(40,43,42,1) 24%,rgba(40,43,42,1) 51%,rgba(40,43,42,1) 77%,rgba(181,189,200,1) 92%,rgba(181,189,200,1) 100%,rgba(40,43,42,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(181,189,200,1) 6%,rgba(40,43,42,1) 24%,rgba(40,43,42,1) 51%,rgba(40,43,42,1) 77%,rgba(181,189,200,1) 92%,rgba(181,189,200,1) 100%,rgba(40,43,42,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#282b2a',GradientType=1 ); /* IE6-9 */
+
+
+
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+
+  /* change this to change the background color of a colored section */
+  
+}
+
+
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 70%;
+  /*width: 60%;*/
+  /*background-position: center;*/
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+
+}
+
+.item{
+padding-left: 2%;
+}
+
+.carousel-inner {
+
+background: rgb(226,0,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(226,0,0,1) 8%, rgba(255,2,2,1) 50%, rgba(239,0,0,1) 85%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(8%,rgba(226,0,0,1)), color-stop(50%,rgba(255,2,2,1)), color-stop(85%,rgba(239,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(226,0,0,1) 8%,rgba(255,2,2,1) 50%,rgba(239,0,0,1) 85%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(226,0,0,1) 8%,rgba(255,2,2,1) 50%,rgba(239,0,0,1) 85%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(226,0,0,1) 8%,rgba(255,2,2,1) 50%,rgba(239,0,0,1) 85%); /* IE10+ */
+background: linear-gradient(to right,  rgba(226,0,0,1) 8%,rgba(255,2,2,1) 50%,rgba(239,0,0,1) 85%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e20000', endColorstr='#ef0000',GradientType=1 ); /* IE6-9 */
+
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  max-width: 700px;
+  max-height: 100%;
+  /*border:10px solid black;*/
+  border-radius: 5px;
+  margin-top: 0px;
+   padding:1px;
+   border:1px solid #282B2A;
+   background-color:#ff0;
+}
+
+
+
+
+.text{
+  font-size: 50px;
+  height: 100%;
+  width: 400px;
+  margin-bottom: 150px;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  border-radius: 5px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+
+}
+.text a {
+  text-decoration: none;
+  color: white;
+}
+
+/*.buffer{
+  margin: 30px;
+  padding-top: 30px;
+ 
+}*/
+
+
+.nav-text{
+  font-size: 20px;
+  text-align: center;
+ }
+
+#main-nav.affix {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width:100%;
+  visibility: visible;
+}
+.logo-dude{
+  opacity: .5;
+  z-index: 1;
+  height: 90%;
+}
+.carousel-caption-phrase{
+  /*width: 55%;*/
+}
+#main-nav{
+  margin: 0;
+  border-radius: 0;
+}
+
+.company-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 90px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.company-sub-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.logo-services{
+  max-width: 200px;
+  max-height: 400px;
+
+}
+
+
+
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+
+.button{
+  font-size: 35px;
+  background: #0311E8;
+
+}
+
+
+.services{
+  padding-top: 30px;
+  padding-bottom: 70px;
+color: white;
+background: #4A4340;
+}
+
+.services-header{
+font-size: 70px;
+}
+
+.services-text{
+  font-size: 20px;
+}
+.contact{
+   padding-top: 30px;
+color: white;
+background: #181919;
+}
+
+h1, p{
+    text-shadow: black 0.2em 0.2em 0.4em;
+
+}
+
+h4{
+  font-size: 20px;
+  font-style: bold;
+}
+/* Responsive Styles */
+@media (max-width: 900px) {
+
+.item{
+  padding-left: 0;
+}
+
+.carousel {
+  height: 70%; /* increases the carousel height so it looks good on phones */
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 0px;
+  padding:1px;
+  border:1px solid #282B2A;
+  background-color:#ff0;
+}
+
+.company-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 70px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.company-sub-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+
+.text{
+  font-size: 50px;
+  height: 100%;
+  width: 100%;
+  vertical-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.logo-dude{
+  display: none;
+}
+
+
+
+
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+
+
+.carousel {
+  height: 80%; /* increases the carousel height so it looks good on phones */
+}
+
+
+.text{
+  font-size: 35px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 150px;
+  text-align: left;
+  vertical-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+
+}
+
+.company-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.company-sub-title {
+  font-family: 'ABeeZee', serif;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+
+}
